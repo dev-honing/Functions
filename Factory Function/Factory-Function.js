@@ -23,11 +23,15 @@ function createPerson(name, age) {
      * 인사말을 출력하기 위한 함수
      */
     sayHello: function() {
-      console.log(`ㅎㅇ 내 이름은 ${this.name}이고, 나이는 ${this.age}살임.`)
+      console.log(`ㅎㅇ. 내 이름은 ${this.name}이고, 나이는 ${this.age}살임.`)
     }
   }
 }
 
 // 팩토리 함수를 사용해 객체 생성
 const person1 = createPerson('John', 25);
-const person2 = createPerson('Jane', 25);
+const person2 = createPerson('Jane', 30);
+
+// 객체의 메서드 호출
+person1.sayHello();
+person2.sayHello();
