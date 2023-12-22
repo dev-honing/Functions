@@ -33,5 +33,5 @@ const person1 = createPerson('John', 25);
 const person2 = createPerson('Jane', 30);
 
 // 객체의 메서드 호출
-person1.sayHello();
-person2.sayHello();
+person1.sayHello(); // ㅎㅇ. 내 이름은 John이고, 나이는 25살임.
+person2.sayHello(); // ㅎㅇ. 내 이름은 Jane이고, 나이는 30살임.
