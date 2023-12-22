@@ -27,3 +27,7 @@ function createPerson(name, age) {
     }
   }
 }
+
+// 팩토리 함수를 사용해 객체 생성
+const person1 = createPerson('John', 25);
+const person2 = createPerson('Jane', 25);
