@@ -18,7 +18,7 @@ function Person(name, age) {
   this.name = name;
   this.age = age;
   /**
-   * Person 객체의 인사말 메서드
+   * 사람 객체의 인사말 메서드
    */
   this.sayHello = function () {
     console.log(`ㅎㅇ. 내 이름은 ${this.name}이고, 나이는 ${this.age}살임.`)
