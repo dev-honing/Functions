@@ -24,3 +24,7 @@ function Person(name, age) {
     console.log(`ㅎㅇ. 내 이름은 ${this.name}이고, 나이는 ${this.age}살임.`)
   }
 }
+
+// 생성자 함수를 사용해 객체 생성(new 키워드 사용)
+const person1 = new Person('John', 25);
+const person2 = new Person('Jane', 30);
