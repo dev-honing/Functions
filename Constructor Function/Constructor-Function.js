@@ -28,3 +28,7 @@ function Person(name, age) {
 // 생성자 함수를 사용해 객체 생성(new 키워드 사용)
 const person1 = new Person('John', 25);
 const person2 = new Person('Jane', 30);
+
+// 객체의 메서드 호출
+person1.sayHello();
+person2.sayHello();
